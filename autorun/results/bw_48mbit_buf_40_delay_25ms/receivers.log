@@ -1,0 +1,4 @@
+[*] Starting iperf3 receivers in namespace 'receiver'...
+[✓] Receivers running:
+    - CUBIC server on port 5001
+    - BBR   server on port 5002

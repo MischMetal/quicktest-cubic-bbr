@@ -1,0 +1,10 @@
+[*] Running CUBIC and BBR flows for 30 seconds...
+[*] Starting CUBIC flow...
+[*] Starting BBR flow...
+
+================ Throughput Results ================
+CUBIC throughput: 36159986.583466262 bps
+BBR throughput:   9615100.77970807 bps
+====================================================
+
+[✓] Results saved to cubic.json and bbr.json
