@@ -3,14 +3,13 @@ set -e
 
 # Network configs
 BW="${1:-10mbit}"     # Bottleneck rate
-DELAY="${2:-25ms}"    # One-way propagation delay
+LINK_DELAY="${2:-25ms}"    # One-way propagation delay
 BUFF="${3:-100}"    # Queue size in packets
 
 echo "[*] Using parameters:"
 echo "    Bandwidth: $BW"
 echo "    Delay:     $DELAY (one-way)"
 echo "    Buffer:    $BUFFER packets"
-echo ""
 
 # Clean up old namespaces
 for ns in sender router receiver; do
